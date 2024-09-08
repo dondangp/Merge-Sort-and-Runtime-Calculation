@@ -76,4 +76,8 @@ This means that the function's runtime will grow exactly proportional to \(n^2\)
 
 This analysis confirms that the time complexity of the algorithm is quadratic, and the runtime grows proportionally to \(n^2\) in all cases.
 
+## 4. Determining n0
+![n0](https://github.com/user-attachments/assets/5c792a8c-a105-4401-b803-ae073f31ab55)
+
+
 
