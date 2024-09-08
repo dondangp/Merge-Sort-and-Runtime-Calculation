@@ -79,5 +79,27 @@ This analysis confirms that the time complexity of the algorithm is quadratic, a
 ## 4. Determining n0
 ![n0](https://github.com/user-attachments/assets/5c792a8c-a105-4401-b803-ae073f31ab55)
 
+## Questions 4 and 5: Effect of the Modification on Runtime and Results
+
+### 4. Will This Increase How Long It Takes the Algorithm to Run (e.g., timing the function like in #2)?
+
+Yes, the modified function will slightly increase the runtime because of the newly introduced operation `y = i + j` inside the inner loop. However, this operation is a **constant-time operation** \( O(1) \), so while it adds some overhead to each iteration of the loop, it **does not affect the overall time complexity** of the algorithm. The nested loops still run \( n^2 \) times, so the time complexity remains:
+
+\[
+T(n) = O(n^2)
+\]
+
+In conclusion:
+- **Yes**, it will increase the runtime slightly due to the additional operation, but the growth rate remains quadratic.
+
+---
+
+### 5. Will It Affect Your Results from #1?
+
+No, the results from Question 1 remain unchanged. In Question 1, we determined the time complexity to be **O(n²)** because of the two nested loops, each iterating \( n \) times. The new operation `y = i + j` is a **constant-time** operation \( O(1) \), so while it adds some work inside each iteration, it does not change the overall growth rate of the function. Therefore, the time complexity is still \( O(n^2) \), and the results from Question 1 are still valid.
+
+In conclusion:
+- **No**, this modification does not affect the results from Question 1, as the time complexity remains **O(n²)**.
+
 
 
