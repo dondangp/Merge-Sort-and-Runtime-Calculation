@@ -11,7 +11,8 @@ function x = f(n)
 ```
 ![Capture](https://github.com/user-attachments/assets/1fc8bcc2-534a-4228-9897-20faceb9c0e9)
 ![1b](https://github.com/user-attachments/assets/28ea128b-d0cf-4ac9-9b6d-5d5a60a2d6f9)
-![1c](https://github.com/user-attachments/assets/3265e668-de95-4188-90dc-6ff0758f2c5b)
+![1c](https://github.com/user-attachments/assets/ed0a2583-e591-48a7-9ea4-14a789ab844d)
+
 
 ## 2. Plot "Time vs n"
 ![Figure_1](https://github.com/user-attachments/assets/8018ebeb-8aef-4043-afae-44f232086a05)
