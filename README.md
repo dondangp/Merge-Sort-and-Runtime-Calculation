@@ -66,11 +66,13 @@ This means that the function's runtime will grow exactly proportional to \(n^2\)
 
 ---
 
-### Conclusion
-
+### Result
 - **Big-O (Upper Bound)**: \(O(n^2)\)
 - **Big-Omega (Lower Bound)**: \(Ω(n^2)\)
 - **Big-Theta (Tight Bound)**: \(Θ(n^2)\)
+### Plot
+![Figure_2](https://github.com/user-attachments/assets/c316624d-c629-48f6-818d-99d39e8f8973)
+
 
 This analysis confirms that the time complexity of the algorithm is quadratic, and the runtime grows proportionally to \(n^2\) in all cases.
 
