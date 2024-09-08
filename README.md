@@ -83,24 +83,27 @@ This analysis confirms that the time complexity of the algorithm is quadratic, a
 
 ### 4. Will This Increase How Long It Takes the Algorithm to Run (e.g., timing the function like in #2)?
 
-Yes, the modified function will slightly increase the runtime because of the newly introduced operation `y = i + j` inside the inner loop. However, this operation is a **constant-time operation** \( O(1) \), so while it adds some overhead to each iteration of the loop, it **does not affect the overall time complexity** of the algorithm. The nested loops still run \( n^2 \) times, so the time complexity remains:
+Yes, I found that the modified function slightly increases the runtime because of the newly introduced operation `y = i + j` inside the inner loop. However, this operation is a **constant-time operation** \( O(1) \), so while it adds some overhead to each iteration of the loop, it **does not affect the overall time complexity** of the algorithm. The nested loops still run \( n^2 \) times, so the time complexity remains:
 
 \[
 T(n) = O(n^2)
 \]
 
 In conclusion:
-- **Yes**, it will increase the runtime slightly due to the additional operation, but the growth rate remains quadratic.
+- **Yes**, it increases the runtime slightly due to the additional operation, but the growth rate remains quadratic.
 
 ---
 
 ### 5. Will It Affect Your Results from #1?
 
-No, the results from Question 1 remain unchanged. In Question 1, we determined the time complexity to be **O(n²)** because of the two nested loops, each iterating \( n \) times. The new operation `y = i + j` is a **constant-time** operation \( O(1) \), so while it adds some work inside each iteration, it does not change the overall growth rate of the function. Therefore, the time complexity is still \( O(n^2) \), and the results from Question 1 are still valid.
+No, the results from Question 1 remain unchanged. In Question 1, I determined the time complexity to be **O(n²)** because of the two nested loops, each iterating \( n \) times. The new operation `y = i + j` is a **constant-time** operation \( O(1) \), so while it adds some work inside each iteration, it does not change the overall growth rate of the function. Therefore, the time complexity is still \( O(n^2) \), and the results from Question 1 are still valid.
 
 In conclusion:
 - **No**, this modification does not affect the results from Question 1, as the time complexity remains **O(n²)**.
+
 ## 6. Merge Sort Implementation
+Here, I implemented the Merge Sort algorithm to sort the provided array.
+
 ```python
 def merge_sort(arr):
     if len(arr) > 1:
@@ -135,11 +138,10 @@ def merge_sort(arr):
             j += 1
             k += 1
 
-# Test the Merge Sort on the provided array
+# I tested the Merge Sort on the provided array
 arr = [5, 2, 4, 7, 1, 3, 2, 6]
 print("Original array:", arr)
 merge_sort(arr)
 print("Sorted array:", arr)
 ```
-
 
