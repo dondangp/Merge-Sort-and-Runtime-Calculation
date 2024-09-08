@@ -1,4 +1,3 @@
-# Merge Sort Implementation
 def merge_sort(arr):
     if len(arr) > 1:
         mid = len(arr) // 2  # Finding the middle of the array
@@ -32,7 +31,7 @@ def merge_sort(arr):
             j += 1
             k += 1
 
-# Test the Merge Sort on the provided array
+# I tested the Merge Sort on the provided array
 arr = [5, 2, 4, 7, 1, 3, 2, 6]
 print("Original array:", arr)
 merge_sort(arr)
