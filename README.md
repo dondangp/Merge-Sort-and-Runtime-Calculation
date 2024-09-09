@@ -15,6 +15,18 @@ function x = f(n)
 
 
 ## 2. Plot "Time vs n"
+### Benchmark Environment
+
+- **Operating System**: macOS 14.4.1 (23E224)
+- **Processor/Chip**: Apple M2 (8-core CPU)
+- **Clock Speed**: Up to 3.49 GHz
+- **RAM**: 8 GB
+- **Storage**: 245.11 GB Macintosh HD
+- **Python Version**: 3.12.0
+- **Virtual Environment**: Yes (`venv`)
+- **Major Dependencies**: `timeit`, `matplotlib`
+- **Device Power Status**: Plugged in
+- **Background Processes**: Minimal activity, no significant CPU load during benchmarking.
 ![Figure_1](https://github.com/user-attachments/assets/8018ebeb-8aef-4043-afae-44f232086a05)
 
 ## 3. Big O, Big Omega, Big Theta
